@@ -1,0 +1,10 @@
+{
+  "name": "beschool-cpp-final-exam-simple",
+  "version": "2.0.0",
+  "private": true,
+  "description": "BeSchool C++ final exam with a 120-minute timer and Judge0 C++17 compiler",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "dev": "node --watch server.js" },
+  "engines": { "node": ">=18.0.0" },
+  "dependencies": { "dotenv": "^16.4.7", "express": "^4.21.2" }
+}
